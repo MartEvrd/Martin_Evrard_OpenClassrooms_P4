@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(0, 0, 0, .6);
 }
 
 .d-bloc .a-btn:hover,
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -692,7 +692,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #000000!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -752,6 +752,13 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
+.foot-txt {
+    color: #000000!important;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
@@ -760,6 +767,8 @@ h4 {
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
+    font-size: 15px;
+    text-shadow: 0 0 10px #000000;
 }
 
 .bgc-white {
@@ -774,13 +783,25 @@ h4 {
     background-color: #F3976C;
 }
 
+.txt-citation{
+    font-size: 22px;
+    font-style: italic;
+}
+
+.citation-author {
+    font-size: 18px;
+    font-style: italic;
+    color: rgba(90, 90, 90)!important;
+}
+
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
+    text-shadow: 0 0 10px #000000;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -823,6 +844,11 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+.txt-contact {
+    color: #000000!important;
+    text-shadow: 0 0 15px #FFFFFF;
 }
 
 @media (max-width: 1024px) {
@@ -1033,10 +1059,15 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .img-responsive {
+        min-width: 100%;
     }
 }
